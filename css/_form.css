@@ -18,9 +18,9 @@
 }
 
 .icone--ok {
-
+    background-position:0 0;
 }
 
 .icone--avertissement {
-
+    background-position:-34px 0;
 }

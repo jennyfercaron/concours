@@ -39,3 +39,17 @@
 
 /* Mise en page
    ========================================================================== */
+/*Boutins radio*/
+ul {
+    list-style: none;
+    padding: 0;
+}
+ul img {
+                      filter: grayscale(100%);
+                  }
+input[type:radio]:focus + label {
+                     filter: grayscale(0%);
+                 }
+input[type:radio]:checked + label {
+    border: black;
+                 }
